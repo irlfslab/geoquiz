@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Quiz To Test Your Geography Knowledge</title>
+    <link rel="icon" type="image/x-icon" href="./images/favicon.ico">
+    <link rel="stylesheet" href="./style.css">
+</head>
+<body>
+
+    <main>
+        <section class="quiz">
+            <div class="heading">
+                <p class="title">Quiz To Test Your Geography Knowledge!</p>
+            </div>
+
+            <div class="result hide">
+                <p></p>
+                <p class="reload">
+                    <button onclick="document.location.reload(true)">Try Again?</button>
+                </p>
+            </div>
+
+            <form class="quiz-form">
+                <div class="question">
+                    <p>1. Which is the capital city of Australia?</p>
+                    <div class="option">
+                        <input type="radio" id="qb1" name="q1" value="A" checked>
+                        <label>Melbourne</label>
+                    </div>
+                    <div class="option">
+                        <input type="radio" name="q1" value="B">
+                        <label>Canberra</label>
+                    </div>
+                    <div class="option">
+                        <input type="radio" name="q1" value="C">
+                        <label>Sydney</label>
+                    </div>
+                </div>
+
+                <div class="question">
+                    <p>2. Which country has the Great Barrier Reef?</p>
+                    <div class="option">
+                        <input type="radio" name="q2" value="A" checked>
+                        <label>US</label>
+                    </div>
+                    <div class="option">
+                        <input type="radio" name="q2" value="B">
+                        <label>Mexico</label>
+                    </div>
+                    <div class="option">
+                        <input type="radio" name="q2" value="C">
+                        <label>Australia</label>
+                    </div>
+                </div>
+
+                <div class="question">
+                    <p>3. What is the largest state in the USA?</p>
+                    <div class="option">
+                        <input type="radio" name="q3" value="A" checked>
+                        <label>California</label>
+                    </div>
+                    <div class="option">
+                        <input type="radio" name="q3" value="B">
+                        <label>Alaska</label>
+                    </div>
+                    <div class="option">
+                        <input type="radio" name="q3" value="C">
+                        <label>Texas</label>
+                    </div>
+                </div>
+
+                <div class="question">
+                    <p>4. Which is the capital city of South Korea?</p>
+                    <div class="option">
+                        <input type="radio" name="q4" value="A" checked>
+                        <label>Manila</label>
+                    </div>
+                    <div class="option">
+                        <input type="radio" name="q4" value="B">
+                        <label>Seoul</label>
+                    </div>
+                    <div class="option">
+                        <input type="radio" name="q4" ivalue="C">
+                        <label>Jakarta</label>
+                    </div>
+                </div>
+
+                <div class="question">
+                    <p>5. What is the largest country in South America?</p>
+                    <div class="option">
+                        <input type="radio" name="q5" value="A" checked>
+                        <label>Argentina</label>
+                    </div>
+                    <div class="option">
+                        <input type="radio" name="q5" value="B">
+                        <label >Chile</label>
+                    </div>
+                    <div class="option">
+                        <input type="radio" name="q5" value="C">
+                        <label>Brazil</label>
+                    </div>
+                </div>
+                <div class="submit">
+                    <input type="submit" value="Submit">
+                </div>
+            </form>
+        </section>
+    </main>
+
+    <script src="./index.js"></script>
+    
+</body>
+</html>
