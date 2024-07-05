@@ -13,6 +13,7 @@ form.addEventListener("submit", event => {
     userAnswers.forEach((answer, idx) => {
 
         if(answer === correct[idx]){
+            //console.log("Correct Answer", idx);
             score += 1;
             questions[idx].classList.add("correct");
         } else {
