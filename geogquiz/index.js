@@ -24,6 +24,7 @@ form.addEventListener("submit", event => {
 
     scrollTo(0, 0);
     result.classList.remove("hide");
+    console.log(result.querySelector("p").textContent);
     result.querySelector("p").textContent = `You scored ${score}/5!`;
     for (let i = 0; i < document.getElementsByName("q1").length; i++) {
         document.getElementsByName("q1")[i].disabled = true;
