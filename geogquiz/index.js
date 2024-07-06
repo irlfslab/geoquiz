@@ -2,6 +2,7 @@ const correct = ["B", "C", "B", "B", "C"];
 const form = document.querySelector(".quiz-form");
 const result = document.querySelector(".result");
 const questions = document.querySelectorAll(".question");
+//console.log(questions[0]);
 
 form.addEventListener("submit", event => {
     event.preventDefault();
@@ -24,7 +25,7 @@ form.addEventListener("submit", event => {
 
     scrollTo(0, 0);
     result.classList.remove("hide");
-    console.log(result.querySelector("p").textContent);
+    //console.log(result.querySelector("p").textContent);
     result.querySelector("p").textContent = `You scored ${score}/5!`;
     for (let i = 0; i < document.getElementsByName("q1").length; i++) {
         document.getElementsByName("q1")[i].disabled = true;
